@@ -32,7 +32,7 @@ const lookup = {
 };
 
 function rot13(str) {
-	str = str.toUppercase();
+	str = str.toUpperCase();
     let output = "";
 	
 	for(let i=0; i<str.length; i++)
